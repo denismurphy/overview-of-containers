@@ -32,7 +32,7 @@ include:
 
 ### Container and Orchestration Tools
 
-|Container Technology|Description|
+|Project|Description|
 |-|-|
 |Kubernetes| Container orchestration system|
 |Apache Mesos|Cluster manager that can run both containers and non-containerized workloads|
