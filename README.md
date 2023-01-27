@@ -44,3 +44,24 @@ include:
 |containerd|Container runtime that is designed to be used as a daemon to control and manage container lifecycle|
 |podman|Daemonless container engine for developing, managing, and running OCI Containers|
 |rkt|(deprecated) pod-native container engine for Linux|
+
+### Container Registries
+
+Container images are stored in a container registry. Examples include Docker Hub, Amazon Elastic Container Registry (ECR). It allows teams to store, manage, and distribute container images in a centralized location, making it easier to collaborate and deploy applications.
+
+there are a few key questions to consider when choosing Container Registry, such as whether you need to store additional artifacts beyond container images, if you need extra security features, and whether you prefer an on-prem or hosted solution.
+
+include:
+
+1.  Amazon Elastic Container Registry (ECR) - This registry can be configured to support private and public Docker registries, and comes equipped with features like vulnerability image scanning and immutable image tags.
+2.  Azure Container Registry (ACR) - This registry, offered by Microsoft, comes with features like automatic purging of old images, retention policy for untagged manifests, and content trust. It also supports OCI Images, OCI Artifacts, and Helm charts.
+3.  Docker Hub Container Registry - This is probably the most popular container registry, and functions as a marketplace for public container images. However, due to some users abusing the auto-build feature to mine cryptocurrencies, there are now limits on Docker’s pull/push image.
+4.  GitHub Package Registry - This registry is integrated with GitHub, and allows you to store packages for multiple languages and package managers.
+5.  GitLab Container Registry - This registry is integrated with GitLab, and allows for easy storage and management of container images.
+6.  Google Artifact Registry (GAR) - This registry is integrated with Google Cloud, and allows you to store and manage container images and other types of artifacts.
+7.  Harbor Container Registry - This is an open-source registry that allows for secure storage of container images, and comes with features like role-based access control and image vulnerability scanning.
+8.  Red Hat Quay - This registry is offered by Red Hat, and allows for easy storage and management of container images, as well as integration with other Red Hat tools like OpenShift.
+9.  Sonatype Nexus Repository OSS - This is an open-source registry that supports multiple package formats, and allows for easy storage and management of container images and other types of artifacts.
+
+In conclusion, there are many options available when it comes to container registries, and the right one for you will depend on your specific needs and preferences. It's important to consider factors such as security, pricing, and additional features when making your decision.
+
