@@ -1,5 +1,5 @@
 
-# High-level overview of Containers & Container Orchestration
+# Overview of Containers & Orchestration
 
 ## Introduction
 
