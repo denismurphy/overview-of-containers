@@ -90,5 +90,3 @@ Popular platforms:
 | 🎛️ containerd | Container runtime daemon |
 | 🐼 podman | Daemonless container engine |
 | 🚀 rkt | (deprecated) Pod-native container engine for Linux |
-
-This overview provides a comprehensive look at container technologies and orchestration tools, essential for modern software development and deployment.
