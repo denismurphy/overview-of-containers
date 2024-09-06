@@ -2,7 +2,7 @@
 
 ## 📚 Introduction
 
-This guide digs into container technologies and orchestration systems, looking at key concepts, architecture details, and new trends in the area. It's meant for professionals who already have a solid grasp of containerization and distributed systems.
+This look into container technologies and orchestration systems, looking at key concepts, architecture details, and new trends in the area. It's meant for professionals who already have a solid grasp of containerization and distributed systems.
 
 ## 📦 Container Technologies
 
